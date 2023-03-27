@@ -1,14 +1,13 @@
 # My Project
 
-This is a description of my project.
+This repository contains projects that I made during my learning journey of frontend and testing. 
+
 
 ## Installation
 
 To install this project, you need to do the following:
 
 1. Clone the repository to your local machine.
-2. Install the necessary dependencies by running `npm install`.
-3. Start the application by running `npm start`.
 
 ## Usage
 
