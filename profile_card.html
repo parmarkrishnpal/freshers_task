@@ -14,7 +14,7 @@
 
         <!-- Profile Photo with a first letter of your name -->
         <div class="profile-text">
-            <span class="profile-pic">R</span>
+            <span class="profile-pic" id="first-letter">R</span>
             <p class="user-name" id="user-full-name">Ram Prasad<p>
         </div>
 
@@ -49,6 +49,10 @@
         const formData = JSON.parse(localStorage.getItem('formData'));
 
         // display the form data on the page
+
+        // Get the first letter of the full name
+        document.querySelector('#first-letter').textContent = formData.full_name.charAt(0).toUpperCase();
+
         document.querySelector('#user-full-name').textContent = formData.full_name;
         document.querySelector('#full-name').textContent = formData.full_name;
         document.querySelector('#contact-number').textContent = formData['contact-number'];
@@ -56,7 +60,6 @@
         document.querySelector('#gender').textContent = formData.gender;
         document.querySelector('#date-of-birth').textContent = formData.date_of_birth;
         document.querySelector('#city').textContent = formData.cities;
-        console.log(formData.full_name);
     </script>
   </body>
 </html>
