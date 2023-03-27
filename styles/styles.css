@@ -1,0 +1,233 @@
+/* Heading styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h5 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 10px
+}
+  
+/* Form container styles */
+.full-page {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0px 15px;
+}
+  
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+  
+.form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+  
+.form-group {
+    width: 100%;
+    margin-bottom: 0;
+}
+  
+.form-group label {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color: #666;
+}
+  
+/* Radio button group styles */
+.btn-group {
+    margin-bottom: 10px;
+}
+  
+.btn-group input[type="radio"] {
+    display: none;
+}
+  
+.btn-group label {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: 1px solid #d3cece;
+    border-radius: 25px;
+    background-color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.btn-group input[type="radio"]:checked + label {
+    background-color: #d3cece;
+}
+  
+/* Select field styles */
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d3cece;
+    border-radius: 4px;
+}
+  
+/* Save button styles */
+.save-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 18px;
+    padding: 8px 16px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+/* Back button styles */
+.back-button {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    padding: 10px 3px 0;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: none;
+}
+  
+.back-button img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Styling input with prefix*/
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #7b7b93;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+  
+.prefix {
+    color: #7b7b93;
+    padding: 3px 0 3px 3px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+  
+#contact-number {
+    background-color: transparent;
+    margin-top: 10px;
+    border: none;
+    flex: 1;
+    padding: 3px;
+    color: #2c2c51;
+}
+
+  
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+}
+
+.profile-text {    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.profile-pic {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    background-color: #048c84;
+    font-weight: bold;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: -53px;
+}
+
+.user-name {
+    padding: 10px 15px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+  
+.cover-image {
+    display: block;
+    background: linear-gradient(to bottom, #024d48, #048c84);
+    width: 100vw; /* Set width to 100% of viewport width */
+    height: 150px;
+}
+  
+
+.profile-container {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(221, 217, 217, 0.616);
+}
+  
+.profile-info {
+    position: relative;
+    left: 10px;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+a.edit-profile-btn {
+    color: rgb(83, 6, 83);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: sans-serif
+}
+
+.labels {
+    font-size: 10px;
+    color: #888;
+    margin-bottom: 3px;
+    font-family: sans-serif
+}
+  
+.label-details {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: sans-serif
+}
+  
+
+  
+  

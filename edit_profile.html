@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Profile Card</title>
+</head>
+<body>
+    <div class="full-page">
+        <div class="back-button">
+            <a href="index.html">
+                <img src="images/back.png" alt="back_icon">
+            </a>
+        </div>
+          
+        <h5>Edit Profile</h5>
+        <div class="form-container">
+            <form action="">
+                <div class="form-group">
+                    <label for="full_name">FULL NAME*</label>
+                    <input type="text" id="full_name" name="full_name" placeholder="Placeholder" required><br>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact-number">CONTACT NUMBER*</label>
+                    <div class="input-wrapper">
+                        <div class="prefix">+91</div>
+                        <input type="number" id="contact-number" name="contact-number" placeholder="Enter Mobile Number" required style="border: none;">
+                    </div>
+                </div>            
+        
+                <div class="form-group">
+                    <label for="email">EMAIL*</label>
+                    <input type="email" id="email" name="email" placeholder="Placeholder" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                </div>            
+        
+                <div class="form-group">
+                    <label for="gender">GENDER</label>
+                    <div class="btn-group">
+                      <input type="radio" id="male" name="gender" value="male">
+                      <label for="male">Male</label>
+                      <input type="radio" id="female" name="gender" value="female">
+                      <label for="female">Female</label>
+                      <input type="radio" id="others" name="gender" value="others">
+                      <label for="others">Others</label><br>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="date_of_birth">DATE OF BIRTH*</label>
+                    <input type="date" id="date_of_birth" name="date_of_birth" value="DD/MM/YY"><br>
+                </div>
+                
+                
+                <div class="form-group">
+                    <label for="cities">CITY</label>
+                    <select name="cities" id="cities">
+                        <option value="" disabled selected>City</option>
+                        <option value="mumbai">Mumbai</option>
+                        <option value="pune">Pune</option>
+                        <option value="banglore">Banglore</option>
+                    </select><br>                
+                </div>
+
+                <input type="submit" value="Save" class="save-button" />
+        
+            </form>
+        </div>
+    </div>
+</body>
+</html>
